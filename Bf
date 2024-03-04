@@ -1,0 +1,36 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Welcome";
+    Text = "Script Made by Gamers!";
+    Icon = "rbxassetid://12325317906";
+    Duration = "999";
+})
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Blox fruits")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Scripts")
+
+KillingCheats:CreateButton("RedzHub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))() 
+end)
+
+KillingCheats:CreateButton("W-Azure", function()
+getgenv().Team = "Pirates"
+getgenv().FixCrash = false
+getgenv().FixCrash2 = false
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+end)
+
+KillingCheats:CreateButton("AnnieHub", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+end)
+
+KillingCheats:CreateButton("CornHub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cheemsbeo/Beta/main/CornHubBetaa2.4.lua"))()
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Credits")
+
+KillingCheats:CreateButton("Gamers", function()
+
+end)
